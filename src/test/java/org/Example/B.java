@@ -11,7 +11,7 @@ public class B {
 
 	@Test(groups = "Regression")
 	private void Tc022() {
-		System.out.println("B TC02");
+		System.out.println("B TC02 test");
 
 	}
 

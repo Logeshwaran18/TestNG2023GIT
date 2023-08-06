@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="classes" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <parameter name="Username" value="Logesh"/>
+  <parameter name="Password" value="123456"/>
+  <test thread-count="10" parallel="classes" name="Test(failed)(failed)">
+    <groups>
+      <run>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.Example.A">
+        <methods>
+          <include name="Tc01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.Example.A -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

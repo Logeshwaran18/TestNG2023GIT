@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="8" failed="1" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-05T13:05:15Z" name="Suite" finished-at="2023-08-05T13:05:16Z" duration-ms="69">
+    <groups>
+      <group name="Sanity">
+        <method signature="A.Tc03()[pri:0, instance:org.Example.A@606e4010]" name="Tc03" class="org.Example.A"/>
+        <method signature="C.Tc0222()[pri:0, instance:org.Example.C@48075da3]" name="Tc0222" class="org.Example.C"/>
+        <method signature="C.Tc0322()[pri:0, instance:org.Example.C@48075da3]" name="Tc0322" class="org.Example.C"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="B.Tc012()[pri:0, instance:org.Example.B@8458f04]" name="Tc012" class="org.Example.B"/>
+        <method signature="B.Tc032()[pri:0, instance:org.Example.B@8458f04]" name="Tc032" class="org.Example.B"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-05T13:05:15Z" name="Test" finished-at="2023-08-05T13:05:16Z" duration-ms="69">
+      <class name="org.Example.A">
+        <test-method signature="Tc01(java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:15Z" name="Tc01" finished-at="2023-08-05T13:05:16Z" duration-ms="18" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.Example.A.Tc01(A.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+        <test-method signature="Tc01(java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc01" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.Example.A.Tc01(A.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+        <test-method signature="Tc01(java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc01" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.Example.A.Tc01(A.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+        <test-method signature="Tc01(java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc01" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Enter Correct name expected [Kasyal] but found [Logesh]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.Example.A.Tc01(A.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01 -->
+        <test-method signature="Tc02(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc02" data-provider="login" finished-at="2023-08-05T13:05:16Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logii]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[add]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc02 -->
+        <test-method signature="Tc02(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc02" data-provider="login" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pretthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[465]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc02 -->
+        <test-method signature="Tc02(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc02" data-provider="login" finished-at="2023-08-05T13:05:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Niran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5556]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Multi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc02 -->
+        <test-method signature="Tc03()[pri:0, instance:org.Example.A@606e4010]" started-at="2023-08-05T13:05:16Z" name="Tc03" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc03 -->
+      </class> <!-- org.Example.A -->
+      <class name="org.Example.B">
+        <test-method signature="Tc012()[pri:0, instance:org.Example.B@8458f04]" started-at="2023-08-05T13:05:15Z" name="Tc012" finished-at="2023-08-05T13:05:16Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc012 -->
+        <test-method signature="Tc032()[pri:0, instance:org.Example.B@8458f04]" started-at="2023-08-05T13:05:16Z" name="Tc032" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc032 -->
+      </class> <!-- org.Example.B -->
+      <class name="org.Example.Sample02">
+        <test-method is-config="true" signature="Tc1xsxededcs1()[pri:0, instance:org.Example.Sample02@18271936]" started-at="2023-08-05T13:05:15Z" name="Tc1xsxededcs1" finished-at="2023-08-05T13:05:15Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1xsxededcs1 -->
+        <test-method is-config="true" signature="Tc1xsxededdcccs1()[pri:0, instance:org.Example.Sample02@18271936]" started-at="2023-08-05T13:05:16Z" name="Tc1xsxededdcccs1" finished-at="2023-08-05T13:05:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1xsxededdcccs1 -->
+      </class> <!-- org.Example.Sample02 -->
+      <class name="org.Example.C">
+        <test-method signature="Tc0222()[pri:0, instance:org.Example.C@48075da3]" started-at="2023-08-05T13:05:15Z" name="Tc0222" finished-at="2023-08-05T13:05:16Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc0222 -->
+        <test-method signature="Tc0322()[pri:0, instance:org.Example.C@48075da3]" started-at="2023-08-05T13:05:16Z" name="Tc0322" finished-at="2023-08-05T13:05:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc0322 -->
+      </class> <!-- org.Example.C -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

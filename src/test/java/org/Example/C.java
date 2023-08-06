@@ -11,7 +11,7 @@ public class C {
 
 	@Test (groups = "Sanity")
 	private void Tc0222() {
-		System.out.println("C TC02");
+		System.out.println("C TC02 happy to see you");
 
 	}
 

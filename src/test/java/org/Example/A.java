@@ -13,7 +13,7 @@ public class A {
 	private static void Tc01(@Optional("Kayal") String name, @Optional("9876") String pass) {
 //		Assert.assertEquals(name, "Kayasl", "Enter Correct name");
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(name, "Kasyal", "Enter Correct name");
+		softAssert.assertEquals(name, "Kayal", "Enter Correct name");
 		System.out.println(name);
 		System.out.println(pass);
 		softAssert.assertAll();

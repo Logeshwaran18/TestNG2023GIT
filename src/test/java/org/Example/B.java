@@ -17,7 +17,7 @@ public class B {
 
 	@Test(groups = "Smoke")
 	private void Tc032() {
-		System.out.println("B TC03");
+		System.out.println("B TC03 test 001");
 
 	}
 }

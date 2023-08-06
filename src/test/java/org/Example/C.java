@@ -5,7 +5,7 @@ public class C {
 
 	@Test(groups = "Regression")
 	private static void Tc0122() {
-		System.out.println("C TC01");
+		System.out.println("C TC01 First Chnage in QA1");
 
 	}
 
@@ -17,7 +17,7 @@ public class C {
 
 	@Test(groups = "Sanity")
 	private void Tc0322() {
-		System.out.println("C TC03 GIT");
+		System.out.println("C TC03 GIT change in QA");
 
 	}
 }

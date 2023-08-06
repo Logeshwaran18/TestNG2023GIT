@@ -17,7 +17,7 @@ public class C {
 
 	@Test(groups = "Sanity")
 	private void Tc0322() {
-		System.out.println("C TC03 GIT Check");
+		System.out.println("C TC03 GIT");
 
 	}
 }

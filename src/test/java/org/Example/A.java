@@ -29,7 +29,7 @@ public class A {
 
 	@Test(groups = "Sanity")
 	private void Tc03() {
-		System.out.println("A TC03");
+		System.out.println("A TC03 pass the use case");
 
 	}
 
